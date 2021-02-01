@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="portfolioStyle.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+        <title>
+        Mbami's Portfolio - Home  
+        </title>
+        <link rel="icon" href="assets/businessman.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="View Mbami's portfolio" />
+        <meta property="og:image" content="http://csportfolio.web.app/assets/myProPic.jpg" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+
+    <body>
+        <nav>
+            <div class = "menuButton">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="/pages/portfolio.html">Portfolio</a>
+                <a href="/pages/works.html">Works</a>
+                <a href="pages/contact.html">Contact</a>
+            </div>
+        </nav>
+        <div class="PageWrapper">
+            <!--################### LEFT BLCK ####################-->
+            <div class="LeftBlock">
+                <p class="textVertical"> Mbami L .</p>
+            </div>
+            <!--################### CONTENT BLCK ####################-->
+            <div class = "Content" >
+                <section class = "UpperSection">
+                    <div class="HeroIntro">
+                        <h1>
+                            Hi, My name is Mbami. I'm a senior in CompSci
+                            with a minor in Math, currently based in Denver, CO.
+                        </h1>
+                        <p>
+                            Having undergone the core courses in the field of computer science,
+                            I have a solid knowledge of algorithms, data structures, Operating Systems, Prob & Stats, etc.
+                            A complete list of courses I've taken can be found on the Portfolio page.
+                            This site was fully developed by myself in the VS Code editor.
+                        </p>
+                        <div class = "twoButtonGrid">
+                            <button onclick="document.location='pages/portfolio.html'">VIEW PORTFOLIO</button> 
+                            <button onclick="document.location='pages/contact.html'">CONTACT</button>
+                        </div>
+                    </div>
+                                      
+                </section> <!-- end Upper section-->
+                <section>
+                    <div class="progLangs">
+                        <div class="progLang">
+
+                            <div class="iconBox">
+                                <img src="assets/html5.png">
+                            </div>
+                            <p>HTML5</p>
+                        </div>
+                        <div class="progLang">
+
+                            <div class="iconBox">
+                                <img src="assets/css.png">
+                            </div>
+                            <p>CSS3</p>
+                        </div>
+                        <div class="progLang">
+
+                            <div class="iconBox">
+                                <img src="assets/javascript.png">
+                            </div>
+                            <p>Javascript</p>
+                        </div>
+                        <!--Begin row two-->
+                        <div class="progLang" data-aos="fade-up">
+
+                            <div class="iconBox">
+                                <img src="assets/algorithm.png">
+                            </div>
+                            <p>Algorithms</p>
+                        </div>
+                        <div class="progLang" data-aos="fade-up">
+
+                            <div class="iconBox">
+                                <img src="assets/dataStructure.png">
+                            </div>
+                            <p>Data Structures</p>           
+                        </div>
+                        <div class="progLang" data-aos="fade-up">
+
+                            <div class="iconBox">
+                                <img src="assets/jquery.png">
+                            </div>
+                            <p>JQuery</p>
+                        </div>
+                    </div> <!--End progLangs-->
+                </section>
+
+                <section data-aos="fade-left">
+                    <div class="SectionTop">
+                        <h2 class= "sectionTop Heading">About</h2>
+                        <div class="aboutGrid">
+                            <div class="Info Block" data-aos="fade-right">
+                                <p class="textGrey">
+                                    Originally born in Nigeria, I have been fortunate to
+                                    have access to the highest quality education in 3 different continents. I thank my parents for that,
+                                    and I live everyday of my life with the goal of making them proud.
+                                </p>
+                                <p class="textGrey">
+                                    I graduated high school at Intl School of Madrid, Spain and moved to the US.
+                                    My first college was DMACC, where I earned my AS Degree. On the strength of this, I got an
+                                    admission to study Computer Science at MSU Denver, where I'm currently a senior. I have
+                                    exelled in Algorithms, Data Structures, Recursion, Operating Systems, Computer Vision,
+                                    and many more courses. I'm registered for Machine Learning and many other senior level courses
+                                    for Spring 2021.
+                                </p>
+                            </div>
+                            <div class="Info Block" data-aos="fade-left">
+                               <p class="textGrey">
+                                   Most of my college courses were taught in Java, but knowing the logic and concepts is more important than
+                                   knowing just the syntax. I used Python in Image Process. & Comp Vision. I have taken an online
+                                   course on SQL with Codecademy, and I have a good grasp of the foundations.
+                               </p>
+                               <h5 class="Contact Heading">Hobbies</h5>
+                               <div class="hobbies">
+                                   <ul>
+                                       <li>Playing + watching Soccer</li>
+                                       <li>Fitness</li>
+                                       <li>Listenning to music</li>
+                                       <li>Monopoly</li>
+                                   </ul> 
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--Proficiencies section-->
+                <section data-aos="fade-right"> 
+                    <h2 class= "sectionTop Heading">Proficiencies</h2>
+                    <div class="proficiencyGrid">
+                        <!--row-1-->
+                        <h5>HTML5</h5>
+                        <progress max="100" value="87">
+                            <div class="progress-bar">
+                                <span style="width: 87%;">Progress: 87%</span>
+                            </div>
+                        </progress>
+                        <p>87%</p>
+                        <!--row-2-->
+                        <h5>CSS3</h5>
+                        <progress max="100" value="85">
+                            <div class="progress-bar">
+                                <span style="width: 85%;">Progress: 85%</span>
+                            </div>
+                        </progress>
+                        <p>85%</p>
+                        <!--row-3-->
+                        <h5>JavaScript</h5>
+                        <progress max="100" value="79">
+                            <div class="progress-bar">
+                                <span style="width: 79%;">Progress: 79%</span>
+                            </div>
+                        </progress>
+                        <p>79%</p>
+                        <!--row-4-->
+                        <h5>JQuery</h5>
+                        <progress max="100" value="81">
+                            <div class="progress-bar">
+                                <span style="width: 81%;">Progress: 81%</span>
+                            </div>
+                        </progress>
+                        <p>81%</p>
+                        <!--row-5-->
+                        <h5>Java SE</h5>
+                        <progress max="100" value="86">
+                            <div class="progress-bar">
+                                <span style="width: 86%;">Progress: 86%</span>
+                            </div>
+                        </progress>
+                        <p>86%</p>
+                        <!--row-6-->
+                        <h5>Python</h5>
+                        <progress max="100" value="82">
+                            <div class="progress-bar">
+                                <span style="width: 82%;">Progress: 82%</span>
+                            </div>
+                        </progress>
+                        <p>82%</p>
+                        <!--row-7-->
+                        <h5>OOP</h5>
+                        <progress max="100" value="90">
+                            <div class="progress-bar">
+                                <span style="width: 90%;">Progress: 90%</span>
+                            </div>
+                        </progress>
+                        <p>90%</p>
+                        <!--row-8-->
+                        <h5>Data Str</h5>
+                        <progress max="100" value="84">
+                            <div class="progress-bar">
+                                <span style="width: 84%;">Progress: 84%</span>
+                            </div>
+                        </progress>
+                        <p>84%</p>
+                    </div>
+                </section> <!--End Proficiencies section-->
+
+                <section data-aos="fade-right">
+                    <h2>My Works</h2>
+                </section>
+            </div> <!-- end content-->
+            <!--################### RIGHT BLCK ####################-->
+            <div class="Sidebar">
+                <img class="profImg" src="assets/myProPic.jpg">
+                <div class="downloadWrapper">
+                    <form id = "dwnlForm" method="get" action="assets/resume.docx">
+                        <button type="submit">DOWNLOAD CV <img src="/assets/dwnl_icon.svg"></button>
+                     </form>
+                </div>
+                <div class="Sidebar Info">
+                    <div class="contactBlck">
+                        <p>Email me:</p>
+                        <a href="mailto:mbamiluka@gmail.com">mbamiluka@gmail.com</a>
+                    </div>
+                    <div class="contactBlck">
+                        <p>Call me:</p>
+                        <p>+1 303 309 9200</p>
+                    </div>
+                    <div class="contactBlck">
+                        <p>LinkedIn:</p>
+                        <a href="https://www.linkedin.com/in/mbami-luka-49217479/" target="_blank">
+                            Mbami Luka
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end pageWrapper-->
+        
+        <script src="js/script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>

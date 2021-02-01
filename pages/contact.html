@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href=".././portfolioStyle.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+        <title>
+        Contact Mbami  
+        </title>
+        <link rel="icon" href="../assets/businessman.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+
+    <body>
+        <nav>
+            <div class = "menuButton">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div class="menu">
+                <a href=".././index.html">Home</a>
+                <a href="/pages/portfolio.html">Portfolio</a>
+                <a href="/pages/works.html">Works</a>
+                <a href="../pages/contact.html">Contact</a>
+            </div>
+        </nav>
+        <div class="PageWrapper">
+            <!--################### LEFT BLCK ####################-->
+            <div class="LeftBlock">
+                <p class="textVertical"> Contact </p>
+            </div>
+            <!--################### CONTENT BLCK ####################-->
+            <div class = "Content">
+                <section class = "UpperSection"></section>
+                <section>
+                    <h2>Contact me</h2>
+                    <p style="line-height: 29px;">
+                        I am now open to job opportunites related to CS; Webdev, Software Engr., or
+                        Software Dev. I have CPT, OPT and STEM-OPT, which means I have work
+                        authorization in the US now and till 2024.
+                    </p>
+                </section>
+                <section>
+                    <form action="https://mbami-luka.000webhostapp.com/mail.php" method="POST">
+                        <div class="contactGrid">
+                            <!--row1-->
+                            <div>
+                                <p>Name</p> <input type="text" name="name">
+                            </div>
+                            <div>
+                                <p>Email</p> <input type="email" name="email">
+                            </div>
+                            <!--row2-->
+                            <div class="msgAreaDiv">
+                                <p>Message</p><textarea name="message" rows="6" cols="45"></textarea><br />
+                            </div>
+                            <div></div>
+                            <input type="submit" name="submit" value="SEND">
+                        </div> <!--end contactGrid-->
+                    </form>
+                </section>
+                <section>
+                    <div class="SectionTop">
+                    </div>
+                </section> <!--end Courses section-->
+                <!--Proficiencies section-->
+                <section data-aos="fade-right"> 
+                    
+                </section> <!--End Proficiencies section-->
+            </div> <!-- end content section-->
+            <!--################### RIGHT BLCK ####################-->
+            <div class="Sidebar">
+                <img class="profImg" src="../assets/img1.jpg">
+                <div class="downloadWrapper">
+                    <form id = "dwnlForm" method="get" action="../assets/resume.docx">
+                        <button type="submit">DOWNLOAD CV <img src="../assets/dwnl_icon.svg"></button>
+                    </form>
+                </div>
+                <div class="Sidebar Info">
+                    <div class="contactBlck">
+                        <p>Email me:</p>
+                        <a href="mailto:mbamiluka@gmail.com">mbamiluka@gmail.com</a>
+                    </div>
+                    <div class="contactBlck">
+                        <p>Call me:</p>
+                        <p>+1 303 309 9200</p>
+                    </div>
+                    <div class="contactBlck">
+                        <p>LinkedIn:</p>
+                        <a href="https://www.linkedin.com/in/mbami-luka-49217479/" target="_blank">
+                            Mbami Luka
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end pageWrapper-->
+        
+        <script src="../js/script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
