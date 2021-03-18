@@ -16,6 +16,7 @@ body{
     background-color: #2a2b20;
     height: auto;
     width: auto;
+    color: #e8e6e3;
 }
 nav{
     position: fixed;
@@ -207,7 +208,7 @@ div .twoButtonGrid{
     padding-bottom: 28px;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: #e1e3d9;
+    background-color: rgb(50, 52, 38);
     text-align: center;
 }
 
@@ -255,7 +256,7 @@ div .twoButtonGrid{
 #dwnlForm{
     display: flex;
     flex-direction: row;
-    background-color: white;
+    background-color: #181a1b;
     height: 100%;
     align-items: center;
     justify-content: center;
@@ -265,6 +266,10 @@ div .twoButtonGrid{
     padding-left: 7px;
     padding-right: 7px;
     background-color: rgb(24, 26, 27);
+}
+button {
+    border-color: #736b5e;
+    color: #e8e6e3;
 }
 #dwnlForm img{
     max-width: 20px;
@@ -301,6 +306,7 @@ div .twoButtonGrid{
 }
 .proficiencyGrid h5, .proficiencyGrid progress{
     padding-top: 6%;
+    color: #e8e6e3;
 }
 /*--------- progress bar ----------*/
 progress[value]::-webkit-progress-bar{
@@ -354,7 +360,7 @@ progress[value]::-webkit-progress-value {
 
   .workContainer{
       border-style: solid;
-      border-color: #d9dbd0;
+      border-color: rgb(60, 65, 67);
       padding-left: 15px;
       padding-top: 15px;
       padding-bottom: 15px;
@@ -392,7 +398,7 @@ progress[value]::-webkit-progress-value {
     padding-bottom: 28px;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: #e1e3d9;
+    background-color: rgb(50, 52, 38);
     text-align: center;
 }
 
