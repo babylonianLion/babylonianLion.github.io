@@ -13,7 +13,7 @@
     z-index: 1;
 }
 body{
-    background-color: #edeee8;
+    background-color: #2a2b20;
     height: auto;
     width: auto;
 }
@@ -30,7 +30,7 @@ nav{
     border-color: #d9dbd0;
 }
 nav.active{
-    background-color: #ffffff;
+    background-color: rgb(24, 26, 27);
     transition: 0.55s;
 }
 .menuButton{
@@ -43,7 +43,7 @@ nav.active{
     height: 55px;
     width: 55px;
     border-radius: 50%;
-    border-color: #d9dbd0;
+    background-color: #71a882;
 }
 .menuButton.hover{
     border-style: solid;
@@ -101,6 +101,7 @@ body .PageWrapper{
     width: 10%;
     position: sticky;
     top: 0;
+    padding-top: 49px;
 }
 .PageWrapper .textVertical{
     transform: rotateZ(-90deg);
@@ -131,6 +132,7 @@ h1{
     font-weight: 400;
     font-size: 40px;
     margin-bottom: 16px;
+    color:#e8e6e3;
 }
 h2{
     font-family: 'Playfair Display',serif;
@@ -142,7 +144,7 @@ section{
     margin-bottom: 70px;
 }
 section h2{
-    color:#333;
+    color: rgb(200, 195, 188);
     font-family: 'Playfair Display';
     font-weight: normal;
     margin-bottom: 50px;
@@ -150,6 +152,7 @@ section h2{
 p{
     margin-bottom: 24px;
     line-height: 30px;
+    color:#e8e6e3;
 }
 section .HeroIntro{
     padding: 60px 0px 40px 0px;
@@ -221,17 +224,18 @@ div .twoButtonGrid{
 }
 .Info p{
     line-height: 28px;
-    color: rgb(99, 99, 99)
+    color:#e8e6e3;
 }
 .aboutGrid{
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 18px;
     row-gap: 2px;
+    color:#e8e6e3;
 }
 .hobbies ul,.courses ul{
     font-family: 'IBM Plex Mono';
-    color: #151515;
+    color: #e8e6e3;
     margin-left: 18px;
     line-height: 28px;
     padding-top: 10px;
@@ -260,6 +264,7 @@ div .twoButtonGrid{
     font-family: 'IBM Plex Mono',serif;
     padding-left: 7px;
     padding-right: 7px;
+    background-color: rgb(24, 26, 27);
 }
 #dwnlForm img{
     max-width: 20px;
@@ -284,8 +289,8 @@ div .twoButtonGrid{
     margin-bottom: 5px;
 }
 .contactBlck a{
-    text-decoration: none;
-    color: #2e633f;
+    text-decoration: currentcolor;
+    color: rgb(151, 207, 169);
     font-size: 13px;
 }
 .proficiencyGrid{
