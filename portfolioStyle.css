@@ -61,6 +61,7 @@ nav.active{
     width: 0px;
     display: none;
     text-decoration: none;
+    color: #71a882;
 }
 .menu a.active{
     display:block;
